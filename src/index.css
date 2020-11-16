@@ -34,7 +34,7 @@ main {
 .square {
   padding-bottom: 100%;
   background: #ccc;
-  border: 1px solid green;
+  border: 1px solid seagreen;
   display: block;
   appearance: none;
   cursor: pointer;

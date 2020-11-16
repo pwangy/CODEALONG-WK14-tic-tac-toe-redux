@@ -1,10 +1,12 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
+
 import { game } from './reducers/game'
 import { Board } from './components/Board'
 import { Stats } from './components/Stats'
 
+// game is the reducer 
 const reducer = combineReducers({
   game: game.reducer
 })
